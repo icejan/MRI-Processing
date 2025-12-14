@@ -1,5 +1,4 @@
-% Najiba Imam
-
+% DAMF Technique
 % Original Image
 I4 = imread('mri_image.jpg');
 
@@ -34,7 +33,7 @@ figure(3);
 imshow(filtered_image);
 title('I6: DAMF Filtered Image', "FontSize", 15, "Color", "Black");
 
-% Optional: save outputs
+% Saving image outputs
 imwrite(noisy_image, 'mri_image_noisy.png');
-
 imwrite(filtered_image, 'mri_image_DAMF_filtered.png');
+
