@@ -34,7 +34,8 @@ imshow(filtered_image);
 title('I6: DAMF Filtered Image', "FontSize", 15, "Color", "Black");
 
 % Saving image outputs
-imwrite(noisy_image, 'mri_image_noisy.png');
-imwrite(filtered_image, 'mri_image_DAMF_filtered.png');
+imwrite(noisy_image, 'mri_image_noisy.jpg');
+imwrite(filtered_image, 'mri_image_DAMF_filtered.jpg');
+
 
 
