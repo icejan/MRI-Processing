@@ -26,7 +26,6 @@ figure(1);
 imshow(I4);
 title('I4: Original MRI Image', "FontSize", 15, "Color", "Black");
 
-
 figure(2);
 imshow(noisy_image);
 title('I5: Salt & Pepper Noisy Image', "FontSize", 15, "Color", "Black");
@@ -37,4 +36,5 @@ title('I6: DAMF Filtered Image', "FontSize", 15, "Color", "Black");
 
 % Optional: save outputs
 imwrite(noisy_image, 'mri_image_noisy.png');
+
 imwrite(filtered_image, 'mri_image_DAMF_filtered.png');
